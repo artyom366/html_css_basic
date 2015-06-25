@@ -1,3 +1,30 @@
 * {
     box-sizing: border-box;
 }
+
+header {
+    background-color: #473a2d;
+}
+
+nav {
+    float:right;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav.lang a {
+    text-transform: uppercase;
+}
+
+nav.menu a {
+    text-transform: capitalize;
+}
