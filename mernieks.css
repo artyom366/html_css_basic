@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+body {
+
+}
+
+div {
+  height: 100%;
+}
+
 header {
     background-color: #473a2d;
     height:100px;
@@ -49,4 +57,12 @@ div.vertical_line {
     position: relative;
     transform: translateY(-50%);
     top: 50%;
+}
+
+section.main {
+  /*background-image: url(_DSC0211.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-attachment: local;
+  background-size: cover; */
 }
