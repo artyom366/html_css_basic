@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            <text>hw2</text>
+        </title>
+        <style>
+            .box {
+                color: white;
+            }
+
+            .box-danger {
+                width: 150px;
+                height: 150px;
+                background-color: red;
+                position: absolute;
+                top: 60px;
+                left: 60px;
+                z-index: 20;
+            }
+
+            .box-warning {
+                width: 150px;
+                height: 150px;
+                background-color: orange;
+                position: relative;
+                top: 120px;
+                left: 120px;
+                z-index: 30;
+            }
+
+            .box-info {
+                width: 500px;
+                height: 500px;
+                background-color: cornflowerblue;
+                position: fixed;
+                top: 0;
+                left: 0;
+                z-index: 10;
+            }
+        </style>
+    </head>
+
+    <div class="box">
+        <div class="box-danger">
+            <h1>danger</h1>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-warning">
+            <h1>warning</h1>
+        </div>
+
+    </div>
+
+    <div class="box">
+        <div class="box-info">
+            <h1>info</h1>
+        </div>
+    </div>
+</html>
