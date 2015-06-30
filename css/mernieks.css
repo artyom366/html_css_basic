@@ -1,0 +1,164 @@
+/*https://css-tricks.com/video-screencasts/82-css-image-switcher/*/
+/*http://www.css3maker.com/border-radius.html*/
+/*http://jsfiddle.net/webskola/dpymawrt/*/
+
+
+/* main config */
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+}
+
+/*header */
+header {
+    position: relative;
+    background-color: #473a2d;
+    height:100px;
+}
+
+.logo {
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.menu {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 110%;
+}
+
+.menu-nav {
+    position: absolute;
+    left: 350px;
+    top: -60px;
+}
+
+.menu-lang {
+    position: absolute;
+    left: 900px;
+    top: -60px;
+}
+
+.menu-btn {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}
+
+a:hover {
+    background: #5b4d3b;
+}
+
+.vertical-line {
+    position: absolute;
+    width: 1px;
+    height: 50px;
+    background-color: white;
+    left: 897px;
+    top: -75px;
+
+}
+
+/*section main*/
+.main {
+    background-image: url(../img/_DSC0211.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: local;
+    background-size: cover;
+    width: 100%;
+    height: 60%;
+    color: white;
+}
+
+.main-block {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.beginning-block-title {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 8px 12px 8px 12px;
+}
+
+.small-text span p {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 8px 12px 8px 12px;
+}
+
+.small-text-1 {
+    top: 250px;
+    left: 150px;
+}
+
+.small-text-2 {
+    top: 290px;
+    left: 150px;
+}
+
+.pictures-menu-block {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+}
+
+.pictures-menu {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+
+.img-btn {
+    display:inline-block;
+    margin: 0px 5px 0px 0px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    text-decoration: none;
+    background: #b0926d;
+}
+
+.img-btn:active {
+    border: 2px solid #b0926d;
+    background: #d9cabf ;
+    z-index: 10;
+}
+
+/*section light-body*/
+/*section services*/
+.services {
+    background-image: url(../img/services_backgroung.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: local;
+    background-size: contain;
+    width: 100%;
+    height: 80%;
+    color: #473a15;
+}
+
+.services-block {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.services-block-title {
+  margin-left: auto;
+  margin-right: auto;
+}

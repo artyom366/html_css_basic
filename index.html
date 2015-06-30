@@ -5,7 +5,7 @@
 
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="mernieks.css">
+  <link rel="stylesheet" type="text/css" href="css/mernieks.css">
   <meta charset="UTF-8">
   <title>mernieks</title>
   <style></style>
@@ -13,7 +13,7 @@
 
 <body>
 <header class="header">
-  <img class="logo" src="logo.png">
+  <img class="logo" src="img/logo.png">
 
   <div class="menu">
     <nav class="menu-lang">
@@ -37,8 +37,8 @@
 
 <section class="main">
   <div class="main-block">
-    <div class="beginning-block">
-      <h1 class="beginning-text" id="beginning">Mērniecība</h1>
+    <div class="beginning-block-title">
+      <h1 class="beginning-title" id="beginning">Mērniecība</h1>
     </div>
 
     <div class="small-text">
@@ -51,9 +51,9 @@
 
     <div class="pictures-menu-block">
       <nav class="pictures-menu">
-        <a class="img-btn" href="#"></a>
-        <a class="img-btn" href="#"></a>
-        <a class="img-btn" href="#"></a>
+        <a id="img-btn-one" class="img-btn" href="#"></a>
+        <a id="img-btn-two" class="img-btn" href="#"></a>
+        <a id="img-btn-three" class="img-btn" href="#"></a>
       </nav>
     </div>
   </div>
@@ -62,36 +62,47 @@
 </section>
 
 <section class="services">
-  <h1 class="services-header" id="services">Pakalpojumi</h1>
+  <div class="services-block">
 
-  <ul class="service">
-    <h2 class="services-sub-header">ģeodēzija</h2>
+    <div class="services-block-title">
+        <h1 class="services-title" id="services">Pakalpojumi</h1>
+      </div>
 
-    <li class="service-li">Topogrāfiskā uzmērīšana un plānu izgatavošana mērogā  1:250, 1:500, 1:1000, 1:2000;</li>
-    <li class="service-li">Apakšzemes komunikāciju uzmērīšana un saskaņošana;</li>
-    <li class="service-li">Situācijas uzmērīšana;</li>
-    <li class="service-li">Būvasu nospraušana;</li>
-    <li class="service-li">Konstrukciju novietojuma pārbaude.</li>
-  </ul>
+      <div class="services-list-block">
+    <ul class="service-list">
+      <h2 class="services-sub-header">ģeodēzija</h2>
 
-  <ul class="service">
-    <h2 class="services-sub-header">Mērniecība</h2>
+      <li class="service-li">Topogrāfiskā uzmērīšana un plānu izgatavošana mērogā  1:250, 1:500, 1:1000, 1:2000;</li>
+      <li class="service-li">Apakšzemes komunikāciju uzmērīšana un saskaņošana;</li>
+      <li class="service-li">Situācijas uzmērīšana;</li>
+      <li class="service-li">Būvasu nospraušana;</li>
+      <li class="service-li">Konstrukciju novietojuma pārbaude.</li>
+    </ul>
+  </div>
 
-    <li class="service-li">Zemesgabalu robežu uzmērīšana zemes un būvju reģistrācijai;<li>
-    <li class="service-li">Zemesgabalu robežu noteikšana dabā;</li>
-    <li class="service-li">Atkārtota robežpunktu koordinātu noteikšana un atlikšana dabā;</li>
-    <li class="service-li">Zemesgabalu apvienošana vai sadalīšana dabā, pēc zemes ierīcības projekta vai detālplānojuma izstrādes.</li>
-    <li class="service-li">Meža transformējamo platību uzmērīšana;</li>
-    <li class="service-li">Robežstigu un vizūru noteikšana;</li>
-    <li class="service-li">Zemesgabalu apgrūtinājumu, robežu un situācijas plānu izgatavošana.</li>
-  </ul>
+  <div class="services-list-block">
+    <ul class="service-list">
+      <h2 class="services-sub-header">Mērniecība</h2>
 
-  <ul class="service">
-    <h2 class="services-sub-header">Zemes ierīcība</h2>
+      <li class="service-li">Zemesgabalu robežu uzmērīšana zemes un būvju reģistrācijai;<li>
+      <li class="service-li">Zemesgabalu robežu noteikšana dabā;</li>
+      <li class="service-li">Atkārtota robežpunktu koordinātu noteikšana un atlikšana dabā;</li>
+      <li class="service-li">Zemesgabalu apvienošana vai sadalīšana dabā, pēc zemes ierīcības projekta vai detālplānojuma izstrādes.</li>
+      <li class="service-li">Meža transformējamo platību uzmērīšana;</li>
+      <li class="service-li">Robežstigu un vizūru noteikšana;</li>
+      <li class="service-li">Zemesgabalu apgrūtinājumu, robežu un situācijas plānu izgatavošana.</li>
+    </ul>
+  </div>
 
-    <li class="service-li">Zemes ierīcības projektu izstrāde;</li>
-    <li class="service-li">Zemes ierīcības projektu saskaņošana.</li>
-  </ul>
+  <div class="services-list-block">
+    <ul class="service">
+      <h2 class="services-sub-header">Zemes ierīcība</h2>
+
+      <li class="service-li">Zemes ierīcības projektu izstrāde;</li>
+      <li class="service-li">Zemes ierīcības projektu saskaņošana.</li>
+    </ul>
+  </div>
+</div>
 </section>
 
 <section class="prices">
