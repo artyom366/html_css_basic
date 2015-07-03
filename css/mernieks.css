@@ -17,6 +17,11 @@ body {
     background-color: grey;
 }
 
+ul
+{
+    list-style-type: none;
+}
+
 /*header */
 header {
     position: relative;
@@ -175,5 +180,16 @@ a:hover {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
 
+.services-list {
+    display: inline-block;
+    margin: 1% 0 1% 1.6%;
+    width: 30%;
+    vertical-align: top;
+}
+
+.services-sub-header {
+    position: relative;
+    left: 38%;
 }
