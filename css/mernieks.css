@@ -42,6 +42,10 @@ header {
     font-size: 110%;
 }
 
+.lang {
+    text-transform: uppercase;
+}
+
 .menu-nav {
     position: absolute;
     right: 270px;
@@ -191,5 +195,19 @@ a:hover {
 
 .services-sub-header {
     position: relative;
-    left: 38%;
+    left: 35%;
+}
+
+.services-sub-header {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.service-li:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 15%;
+    margin: 20px 0 20px 0;
+    background: rgba(0, 0, 0, 0.2);
 }
