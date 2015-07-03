@@ -39,13 +39,13 @@ header {
 
 .menu-nav {
     position: absolute;
-    left: 350px;
+    right: 270px;
     top: -60px;
 }
 
 .menu-lang {
     position: absolute;
-    left: 900px;
+    right: 100px;
     top: -60px;
 }
 
@@ -64,7 +64,7 @@ a:hover {
     width: 1px;
     height: 50px;
     background-color: white;
-    left: 897px;
+    right: 245px;
     top: -75px;
 
 }
@@ -89,8 +89,8 @@ a:hover {
 
 .beginning-block-title {
     position: absolute;
-    top: 200px;
-    left: 150px;
+    top: 36.4%;
+    left: 11%;
     background: rgba(0, 0, 0, 0.4);
     padding: 8px 12px 8px 12px;
 }
@@ -102,25 +102,26 @@ a:hover {
 }
 
 .small-text-1 {
-    top: 250px;
-    left: 150px;
+    top: 45%;
+    left: 11%;
 }
 
 .small-text-2 {
-    top: 290px;
-    left: 150px;
+    top: 52%;
+    left: 11%;
 }
 
 .pictures-menu-block {
     position: absolute;
-    bottom: 0px;
-    left: 50%;
+    left: 48%;
+    width: 100%;
+    height: 100%;
+    bottom: 2%;
 }
 
 .pictures-menu {
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
+    position: absolute;
+    bottom: 0px;
 }
 
 .img-btn {
@@ -159,6 +160,20 @@ a:hover {
 }
 
 .services-block-title {
-  margin-left: auto;
-  margin-right: auto;
+    height: 10%;
+    width: 100%;
+}
+
+.services-title {
+    position: absolute;
+    left: 45%;
+    top: 3%;
+}
+
+.services-header-line {
+    border-top: 1px dotted #736357;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
