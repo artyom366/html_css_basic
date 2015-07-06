@@ -5,7 +5,9 @@
 
 /* main config */
 * {
+    /*include padding*/
     box-sizing: border-box;
+    /*css reset*/
     padding: 0px;
     margin: 0px;
 }
@@ -18,20 +20,36 @@ body {
     background-color: grey;
 }
 
-ul
-{
+ul {
     list-style-type: none;
+}
+
+table {
+    /*show border bottom*/
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n+1) {
+    /*every other starting from the first*/
+    background-color: #f2ebe1;
+}
+
+tr.tf-row {
+    /*reset color of the footer row*/
+    background-color: #f9f7f0;
 }
 
 th {
     text-align: left;
+    padding-bottom: 10px;
     border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
-
+    background-color: #f9f7f0;
 }
 
 td {
     vertical-align: top;
     padding: 20px;
+    text-align: left;
 }
 
 .header-line {
@@ -315,5 +333,29 @@ a:hover {
 .price-description {
     margin-bottom: 20px;
 }
+
+.column-1-head {
+    padding-left: 20px;
+}
+
+.column-2-head {
+    text-align: center;
+}
+
+.column-2 {
+    font-weight: bold;
+}
+
+.row-last {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+}
+
+.tf-row {
+    background-color: #f9f7f0;
+}
+
+
+
+
 
 
