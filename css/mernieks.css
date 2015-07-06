@@ -23,6 +23,13 @@ ul
     list-style-type: none;
 }
 
+.header-line {
+    border-top: 1px dotted #736357;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*header */
 header {
     position: relative;
@@ -178,13 +185,7 @@ a:hover {
     position: absolute;
     left: 45%;
     top: 3%;
-}
-
-.services-header-line {
-    border-top: 1px dotted #736357;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    color: #95782D;
 }
 
 .services-group {
@@ -195,29 +196,33 @@ a:hover {
     margin-right: auto;
     overflow: hidden;
     text-align:center;
+    margin-top: 50px;
 
 }
 
 .services-list {
     position: relative;
     width: 30%;
-    vertical-align: top;
 
 }
 
 .block-1 {
     float: left;
     width: 30%;
+
 }
 
 .block-2 {
     display: inline-block;
 
+
 }
 
 .block-3 {
     float: right;
-    width: 25%;
+    width: 30%;
+
+
 }
 
 .services-icon {
@@ -242,8 +247,9 @@ a:hover {
 .service-list {
     text-align: left;
     margin-top: 15px;
-}
+    margin-left: 30px;
 
+}
 
 .service-li:after {
     content: "";
@@ -252,4 +258,43 @@ a:hover {
     width: 15%;
     margin: 15px 0 15px 0;
     background: rgba(0, 0, 0, 0.2);
+}
+
+/*section prices*/
+.prices {
+    background-image: url(../img/prices_background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: local;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    color: #473a15;
+    position: relative;
+}
+
+.prices-block-title {
+    height: 10%;
+    width: 100%;
+}
+
+.prices-title {
+    position: absolute;
+    left: 41%;
+    top: 3%;
+    color: #95782D;
+}
+
+.prices-block {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.price {
+    width: 45%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
 }
