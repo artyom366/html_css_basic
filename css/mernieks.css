@@ -52,6 +52,10 @@ td {
     text-align: left;
 }
 
+.block-title {
+
+}
+
 .header-line {
     border-top: 1px dotted #736357;
     width: 90%;
@@ -250,8 +254,6 @@ a:hover {
 .block-3 {
     float: right;
     width: 30%;
-
-
 }
 
 .services-icon {
@@ -354,8 +356,30 @@ a:hover {
     background-color: #f9f7f0;
 }
 
+/*section about*/
+.about {
+    background-image: url(../img/abount_background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: local;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    color: #fff;
+    position: relative;
+}
 
+.about-block-title {
+    height: 10%;
+    width: 100%;
+}
 
+.about-title {
+    position: absolute;
+    left: 45%;
+    top: 3%;
+    color: #c7a457;
+}
 
 
 
